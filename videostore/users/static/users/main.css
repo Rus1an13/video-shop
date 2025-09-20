@@ -1,0 +1,110 @@
+body {
+    background: #47d842dc;
+}
+
+nav h2 {
+    transition: transform 1s;
+}
+
+nav h2:hover {
+    transform: scale(1.1);
+}
+
+.greetings {
+    background-color: #feffee;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 70px;
+    font-weight: 600;
+    text-shadow: 3px 3px 2px rgba(0, 0, 0, 0.3);
+    color: #1e293b;
+}
+
+.elementer {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin: 10px;
+    background-color: #F0F5FA;
+    width: 31%;
+    gap: 20px 20px;
+    row-gap: 20px;
+    column-gap: 20px;
+    border-color: #046bd2;
+    border-style: solid;
+    box-shadow: 5px 5px 5px 0px rgba(0, 0, 0, 0.5);
+    transition: transform 1s;
+}
+
+.elementer img {
+    display: block;
+    width: 100%;
+}
+
+.elementer p {
+    text-decoration: underline;
+    text-transform: uppercase;
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.elementer:hover {
+    transform: scale(1.05);    
+}
+
+.alert-light {
+    border-color: #006b1b;
+}
+
+.form-register {
+    padding: 20px;
+    background: #fafafa;
+    border: 1px solid silver;
+    margin-top: 20px;
+}
+
+.form-register .helptext {
+    color: #b7b7b7;
+}
+
+.form-register ul.errorlist {
+    color: #ca5858;
+    font-weight: bold;
+}
+
+.form-register.auth input, .form-register.auth textarea {
+    display: block;
+    width: 96%;
+    margin-top: 5px;
+    border: 1px solid silver;
+    border-radius: 5px;
+    padding: 2%;
+}
+
+.master {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+    container: initial;
+}
+
+.master p {
+    text-transform: uppercase;
+    text-decoration: underline;
+    font-size: 80px;
+    font-weight: 700;
+    color: #0d6efd;
+}
+
+.masterList img {
+    display: block;
+    width: 100%;
+}
+
+footer {
+    margin-top: 100px;
+    height: 200px;
+    margin-left: -15%;
+    background: greenyellow;
+    border: 2px solid blue;
+}
+
